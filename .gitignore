@@ -1,0 +1,8 @@
+*.exe
+*.txt
+*.out
+.vscode
+tempCodeRunnerFile.cpp
+hello_world.cpp
+
+/practice
