@@ -7,15 +7,15 @@ void yupuday() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 	#ifndef ONLINE_JUDGE
-	    freopen("input.txt", "r", stdin);
-	    freopen("output.txt", "w", stdout);
-    #endif 
+		freopen("input.txt", "r", stdin);
+		freopen("output.txt", "w", stdout);
+	#endif 
 }
 
 class Solution {
 	public:
 	int getLargest(const vector<int> &arr) {
-		int largest = INT_MIN;
+	 int largest = INT_MIN;
 		
 		for(auto &num: arr) largest = max(num, largest);
 
